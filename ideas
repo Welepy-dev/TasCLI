@@ -1,0 +1,91 @@
+ask how to deploy in multiple systems 
+how to deploy so that can be downloaded by a package manager
+gow to have the autocomplete detected by terminal
+
+notifications
+search how to style text
+
+maybe python textual
+able to enter the item and expand on a seperate tab;
+order the list of priorities
+vim-like motion
+maybe a vim wrapper with some commands spetialized for to do lists
+add callendar a small one
+time tracker would be nice
+https://github.com/agarrharr/awesome-cli-apps?tab=readme-ov-file#entertainment
+ideas tab and tasks tab
+today, pending, overdue
+set times to finish tasks, or a reminder (search healthy ways to show reminders)
+find a way to show time expiration (maybe at top right corner, small text?)
+checkboxes inside the file  and on the main screen
+format (text allign, bold, etc, bullets points numbered lists, diferent color text), add images??? audio?? calendar is needed
+a way to notify the user a clock
+maybe notify the phone or email
+select various to delete or show as done
+that grid view was really sick
+able to run commands also like (create, list, solve, remove, help, done modify, duplicate edit, log, prepend, ls, newest, overdue, oldest, show recurring)
+able to do tables
+beyond the simple stuff I have to come up with a design for the actual terminal
+both rc and data files create automatically
+recurring task
+notes
+show done peding, active etc
+define the state of the taskThi
+priority
+color themes
+creating a new task, the complex way			 see if current date is not ending today or has passed today or smt
+	tasCLI creaate Fix Your Life::search how to fix your life, steps 1. sadas 2. dfsf 3.sadmasdms::due 21 march 1975
+	or heredoc:
+		Fix your life	<- will automtically make first line the title
+		admklamdsa
+		sdaalkmdalsk
+		djasn kjadmnada
+		1. askmdasdas
+		2. asdsadas
+		3. asdasdas
+		[when finds eof cloeses]  : also find a way to format other thinks like italic etc
+
+tasCLI modify [task id, number or name] due:
+tasCLI append	<- appends to the end of the file
+tasCLI list vomleted
+tasCLI list  active
+
+I am pretty new in programming, I am studying programming at 42 ecole which is mainly in C.
+
+I want to learn also python, so I came up with an idea to learn by:\
+I want to create a To-do app inside the terminal, I've chosen python for the development of this project, with the textual Framework.
+
+Tell what I should learn first to do this project, I'm quite familiar with the basics of python such as Functions, Variables, Conditionals, Loops, Exceptions, Libraries, Unit Tests, File I/O, and Regular Expressions.
+
+This is what I want to implement in this project:
+
+- First, a window with the list of all the tasks to do, with a box a the right which is basically a text editor where you can read and edit the details of the task, of course this text editor must be able to make the text bold or italic, format it, make bulleted lists, numbered lists, checkboxes etc.
+- in the box with all the tasks the user will be able to order by priority.
+- Vim-like motion.
+- Define state of the task (pending, overdue, done etc).
+- Render different color text in the text editor.
+- Select various tasks.
+- In the command line, the program should be able to run certain commands like : create task, remove task, solve task etc.
+- Color Themes.
+- Be able to add.
+- Search tasks.
+- Show how many tasks are pending, active, done
+- Have a checkbox in the list of tasks mark as done.
+- A footer with info and shortcuts.
+- Be able to write the task in the command line with  a multilevel prompt.
+
+Future features to implement:
+
+- Clock and calendar.
+- Notify the user.
+- Show images.
+- Able to show tables.
+
+The name will be TasCLI.
+
+How can I develop and deploy this to be available to install via pip and a package manager e. g.: pacman?
+
+Hot can I make the command line be able to autocomplete the commands?
+
+Do you want a picture of the concept?
+

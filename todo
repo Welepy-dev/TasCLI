@@ -1,0 +1,28 @@
+Make a header
+
+make a "constructor for tasks"
+
+
+
+
+
+
+
+
+
+after reading for a couple of hours the documentation of textual I came trhough a realization, this shit is robust, like, theres a lot of stuf. but after a lot of reading I came with a new objective, instead of creating a header for placing the search bar, what about only an iput widget? so thats what i gone trhrough at the time in order to allign everything correctly i touht of having multiple containers
+after I installed textual into my system search tutorials on the library which made me a little confused, this framework is really popular on githhub but there is so little content about it, so give some tips here and there, but then I was staring my screen, it meant one thing I had to do, develop in the way god intended, by reading the documentation
+
+after reading for a couple of hours the documentation of textual I came trhough a realization, this shit is robust, like, theres a lot of stuf. but after a lot of reading I came with a new objective, instead of creating a header for placing the search bar, what about only an iput widget? so thats what i gone trhrough at the time in order to allign everything correctly i touht of having multiple containers, then i thougth, my strategy order changed again to firstly make the containers, you can see why now I need this to do list
+
+another thing that bugs me out on other languages is that they format the code so weird
+
+now I just need to use events to change the contents of the listview
+
+I couldnt find anything so I asked to old gpt so basically theres these already defined events when I call them I just need to use the on_ prefix on these functions and there I will define my logic
+
+what i want to do is have a list of items and then based on the input it will filter the items on the list and then listview will show those items that where filtered
+
+so first i will have a list with all the items, then turn it into a list comprehension(???) of ListItems then I just uunpack that list comprehetion into the listview
+
+I needed to see if the changes to the list also changed theelements on ListView so i just made a simple function that deleted the first element of the list it didnt work so apparently i have to declare a variable to store the listview then it will update
