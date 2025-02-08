@@ -1,0 +1,1 @@
+when adding a new task the list of tasks only shows the new task.
